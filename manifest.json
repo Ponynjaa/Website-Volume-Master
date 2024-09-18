@@ -1,0 +1,27 @@
+{
+	"manifest_version": 3,
+	"name": "Website Volume Master",
+	"version": "1.0",
+	"description": "Makes it possible to adjust the volume for each website individually.",
+	"icons": {
+		"48": "images/Speaker_Icon_48x48.png",
+		"96": "images/Speaker_Icon_96x96.png"
+	},
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"action": {
+		"default_icon": {
+			"48": "images/Speaker_Icon_48x48.png",
+			"96": "images/Speaker_Icon_96x96.png"
+		},
+		"default_title": "Volume",
+		"default_area": "navbar",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"tabs",
+		"storage",
+		"scripting"
+	]
+}

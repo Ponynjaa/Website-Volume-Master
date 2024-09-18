@@ -1,0 +1,12 @@
+html,
+body {
+	background-color: #0d1117;
+	color: white;
+}
+
+#popup-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
